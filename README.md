@@ -52,15 +52,15 @@ All pretrained models can be found in <a href="https://drive.google.com/drive/fo
 ### Visual comparison
 Our SGNet can restore more precise depth predictions with clearer and sharper structure.
 
-####  Real world RGB-D-D dataset
+Real world RGB-D-D dataset
 <p align="center">
 <img src="figs/Patch_RGBDD_Real.png"/>
 </p>
-####  NYU-v2 dataset (x16)
+NYU-v2 dataset (x16)
 <p align="center">
 <img src="figs/Patch_NYU_X16.png"/>
 </p>
-####  RGB-D-D dataset  (x16)
+RGB-D-D dataset  (x16)
 <p align="center">
 <img src="figs/Patch_RGBDD_X16.png"/>
 </p>
