@@ -12,7 +12,7 @@ from torchvision.utils import save_image, make_grid
 from torch.utils.data import DataLoader
 from torch.autograd import Variable
 
-from models.SUFT_Fre13_3 import *
+from models.SGNet import *
 from data.nyu_dataloader import *
 from data.rgbdd_dataloader import *
 from data.middlebury_dataloader import Middlebury_dataset
