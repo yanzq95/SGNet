@@ -41,17 +41,16 @@ All pretrained models can be found <a href="https://drive.google.com/drive/folde
 </p>
 
 ### Visual comparison
-Our SGNet can restore more precise depth predictions with clearer and sharper structure.
 
-<b>On real-world RGB-D-D: <b/>
+<b>Train & test on real-world RGB-D-D: <b/>
 <p align="center">
 <img src="figs/Patch_RGBDD_Real.png"/>
 </p>
-<b>On synthetic NYU-v2 (x16): <b/>
+<b>Train & test on synthetic NYU-v2 (x16): <b/>
 <p align="center">
 <img src="figs/Patch_NYU_X16.png"/>
 </p>
-<b>On RGB-D-D (x16) (trained on NYU-v2): <b/>
+<b>Train on NYU-v2, test on RGB-D-D (x16): <b/>
 <p align="center">
 <img src="figs/Patch_RGBDD_X16.png"/>
 </p>
@@ -59,9 +58,11 @@ Our SGNet can restore more precise depth predictions with clearer and sharper st
 
 
 ## Acknowledgements
-We thank the following repos sharing their codes： [DKN](https://github.com/cvlab-yonsei/dkn) and [SUFT](https://github.com/ShiWuxuan/SUFT).
+We thank all reviewers for their professional and instructive suggestions.
+
+We thank these repos sharing their codes: [DKN](https://github.com/cvlab-yonsei/dkn) and [SUFT](https://github.com/ShiWuxuan/SUFT).
 
 
 ## Citation
 
-If you use this code, please consider citing:
+If our method proves to be of any assistance, please consider citing:
