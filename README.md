@@ -54,7 +54,7 @@ Our SGNet can restore more precise depth predictions with clearer and sharper st
 
 ####  Real world RGB-D-D dataset
 <p align="center">
-<img src="figs/Patch_RGBDD_Real.png" width="600px" height="400px"/>
+<img src="figs/Patch_RGBDD_Real.png"/>
 </p>
 ####  NYU-v2 dataset (x16)
 <p align="center">
