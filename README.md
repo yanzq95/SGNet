@@ -20,14 +20,14 @@ tqdm==4.65.0
 All pretrained models can be found <a href="https://drive.google.com/drive/folders/1rRzYDOkDtok8rk4ad03WxRqZbwP-oayR?usp=sharing">here</a>.
 
 
-## Train on NYU-v2
+## Train on synthetic NYU-v2
 ### x4 DSR
 > python train.py --scale 4 --num_feats 48
 ### x8 DSR
 >  python train.py --scale 8 --num_feats 40
 ### x16 DSR
 >  python train.py --scale 16 --num_feats 40
-## Train on RGB-D-D
+## Train on real-world RGB-D-D
 >  python train.py --scale 4 --num_feats 24
 
 ## Test
@@ -36,14 +36,6 @@ All pretrained models can be found <a href="https://drive.google.com/drive/folde
 
 ## Experiments
 
-### Quantitative Results
-| SGNet | x4 | x8 | x16 |
-|---|---|---|---|
-| NYU-v2 | 1.10 | 2.44| 4.77 |
-| RGB-D-D | 1.10 | 1.64 | 2.55 |
-| Middlebury | 1.15 | 1.64 | 2.95 |
-| Lu | 1.03 | 1.61 | 3.55 |
-
 <p align="center">
 <img src="figs/histogram.png"/>
 </p>
@@ -51,15 +43,15 @@ All pretrained models can be found <a href="https://drive.google.com/drive/folde
 ### Visual comparison
 Our SGNet can restore more precise depth predictions with clearer and sharper structure.
 
-<b>Real world RGB-D-D: <b/>
+<b>On real-world RGB-D-D: <b/>
 <p align="center">
 <img src="figs/Patch_RGBDD_Real.png"/>
 </p>
-<b>NYU-v2 (x16): <b/>
+<b>On synthetic NYU-v2 (x16): <b/>
 <p align="center">
 <img src="figs/Patch_NYU_X16.png"/>
 </p>
-<b>RGB-D-D (x16): <b/>
+<b>On RGB-D-D (x16) (trained on NYU-v2): <b/>
 <p align="center">
 <img src="figs/Patch_RGBDD_X16.png"/>
 </p>
