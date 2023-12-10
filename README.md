@@ -49,18 +49,22 @@ All pretrained models can be found in <a href="https://drive.google.com/drive/fo
 | Middlebury | 1.15 | 1.64 | 2.95 |
 | Lu | 1.03 | 1.61 | 3.55 |
 
+<p align="center">
+<img src="figs/histogram.png"/>
+</p>
+
 ### Visual comparison
 Our SGNet can restore more precise depth predictions with clearer and sharper structure.
 
-Real world RGB-D-D: 
+<b>Real world RGB-D-D: <b/>
 <p align="center">
 <img src="figs/Patch_RGBDD_Real.png"/>
 </p>
-NYU-v2 (x16): 
+<b>NYU-v2 (x16): <b/>
 <p align="center">
 <img src="figs/Patch_NYU_X16.png"/>
 </p>
-RGB-D-D (x16): 
+<b>RGB-D-D (x16): <b/>
 <p align="center">
 <img src="figs/Patch_RGBDD_X16.png"/>
 </p>
