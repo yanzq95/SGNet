@@ -16,24 +16,18 @@ Pillow==10.0.1
 tqdm==4.65.0
 ```
 
-## Dataset
-
-NYU v2 dataset, our split follow: <a href="http://gofile.me/3G5St/2lFq5R3TL">DKN</a>
-
-RGB-D-D dataset, our split follow: <a href="https://openaccess.thecvf.com/content/CVPR2021/papers/He_Towards_Fast_and_Accurate_Real-World_Depth_Super-Resolution_Benchmark_Dataset_and_CVPR_2021_paper.pdf">FDSR</a>
-
 ## Models
-All pretrained models can be found in <a href="https://drive.google.com/drive/folders/1rRzYDOkDtok8rk4ad03WxRqZbwP-oayR?usp=sharing">SGNet-Model</a>.
+All pretrained models can be found <a href="https://drive.google.com/drive/folders/1rRzYDOkDtok8rk4ad03WxRqZbwP-oayR?usp=sharing">here</a>.
 
 
-## Train
+## Train on NYU-v2
 ### x4 DSR
 > python train.py --scale 4 --num_feats 48
 ### x8 DSR
 >  python train.py --scale 8 --num_feats 40
 ### x16 DSR
 >  python train.py --scale 16 --num_feats 40
-### real-world DSR
+## Train on RGB-D-D
 >  python train.py --scale 4 --num_feats 24
 
 ## Test
