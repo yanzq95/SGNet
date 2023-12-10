@@ -1,6 +1,6 @@
 # SGNet: Structure Guided Network via Gradient-Frequency Awareness for Depth Map Super-Resolution
 
-### This repository is an official PyTorch implementation of the paper "SGNet: Structure Guided Network via Gradient-Frequency Awareness for Depth Map Super-Resolution".
+### This repository is an official PyTorch implementation of our SGNe (AAAI 2024).
 
 <a href=" ">Paper</a>
 
