@@ -24,7 +24,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch
 
-net = net = SUFT_network(num_feats=40, kernel_size=3, scale=8)
+net = net = SGNet(num_feats=40, kernel_size=3, scale=8)
 net.load_state_dict(torch.load("/opt/data/private/SGNet/SGNet_X8.pth", map_location='cuda:0'))
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 net.to(device)
