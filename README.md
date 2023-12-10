@@ -17,7 +17,7 @@ tqdm==4.65.0
 ```
 
 ## Models
-All pretrained models can be found <a href="https://drive.google.com/drive/folders/1rRzYDOkDtok8rk4ad03WxRqZbwP-oayR?usp=sharing">here</a>.
+All pretrained models can be found <a href="https://drive.google.com/drive/folders/17mCRfsNj0f_BNY3viHcR6M1camCVoAb8?usp=sharing">here</a>.
 
 
 ## Train on synthetic NYU-v2
