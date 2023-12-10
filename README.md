@@ -73,8 +73,7 @@ Our SGNet can restore more precise depth predictions with clearer and sharper st
 
 
 ## Acknowledgements
-We thank the following repos sharing their codes.
-This code is built on [DKN](https://github.com/cvlab-yonsei/dkn) and [SUFT](https://github.com/ShiWuxuan/SUFT).
+We thank the following repos sharing their codes： [DKN](https://github.com/cvlab-yonsei/dkn) and [SUFT](https://github.com/ShiWuxuan/SUFT).
 
 
 ## Citation
