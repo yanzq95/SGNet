@@ -2,7 +2,7 @@ import torch.nn as nn
 import torch
 from torchvision import transforms
 
-from modules import InvertibleConv1x1
+from models.modules import InvertibleConv1x1
 import torch.nn.init as init
 import torch.nn.functional as F
 
