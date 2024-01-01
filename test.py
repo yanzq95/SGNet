@@ -130,5 +130,10 @@ with torch.no_grad():
             pred = Image.fromarray(pred)
             pred.save(path_save_pred)
 
+            # visualization  (Visual depth map)
+            #pred = out[0, 0]
+            #pred = pred.cpu().detach().numpy()
+            #cv2.imwrite(path_save_pred, pred * 255.0)   
+
             print(rmse[idx])
         print(rmse.mean())
