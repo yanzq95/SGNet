@@ -379,7 +379,7 @@ class get_Fre(nn.Module):
         return dp_amp, dp_pha
 
 class SDM(nn.Module):
-    def __init__(self, channels, rgb_channels):
+    def __init__(self, channels, rgb_channels,scale):
         super(SDM, self).__init__()
         self.rgbprocess = nn.Conv2d(rgb_channels, rgb_channels, 3, 1, 1)
         self.rgbpre = nn.Conv2d(rgb_channels, rgb_channels, 1, 1, 0)
@@ -401,8 +401,8 @@ class SDM(nn.Module):
         self.fuse_process = nn.Sequential(InvBlock(DenseBlock, 2*channels, channels),
                                          nn.Conv2d(2*channels, channels, 1, 1, 0))
 
-        self.downBlock = DenseProjection(channels, channels, 8, up=False, bottleneck=False)
-        self.upBlock = DenseProjection(channels, channels, 8, up=True, bottleneck=False)
+        self.downBlock = DenseProjection(channels, channels, scale, up=False, bottleneck=False)
+        self.upBlock = DenseProjection(channels, channels, scale, up=True, bottleneck=False)
 
     def forward(self, dp, rgb):  # , i
 
@@ -483,12 +483,12 @@ class Get_gradient_nopadding_d(nn.Module):
         return x
 
 class GCM(nn.Module):
-    def __init__(self,n_feats):
+    def __init__(self,n_feats,scale):
         super(GCM, self).__init__()
         self.grad_rgb = Get_gradient_nopadding_rgb()
         self.grad_d = Get_gradient_nopadding_d()
-        self.upBlock = DenseProjection(1, 1, 8, up=True, bottleneck=False)
-        self.downBlock = DenseProjection(n_feats, n_feats, 8, up=False, bottleneck=False)
+        self.upBlock = DenseProjection(1, 1, scale, up=True, bottleneck=False)
+        self.downBlock = DenseProjection(n_feats, n_feats, scale, up=False, bottleneck=False)
         self.c_rgb = default_conv(3,n_feats,3)
         self.c_d = default_conv(1,n_feats,3)
         self.c_fuse = default_conv(n_feats,n_feats,3)
