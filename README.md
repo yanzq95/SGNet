@@ -26,14 +26,21 @@ All pretrained models can be found <a href="https://drive.google.com/drive/folde
 ### x4 DSR
 > python train.py --scale 4 --num_feats 48
 ### x8 DSR
->  python train.py --scale 8 --num_feats 40
+> python train.py --scale 8 --num_feats 40
 ### x16 DSR
->  python train.py --scale 16 --num_feats 40
+> python train.py --scale 16 --num_feats 40
 ## Train on real-world RGB-D-D
->  python train.py --scale 4 --num_feats 24
+> python train.py --scale 4 --num_feats 24
 
-## Test
-> python test.py
+## Test on synthetic datasets
+### x4 DSR
+> python test.py --scale 4 --num_feats 48
+### x8 DSR
+> python test.py --scale 8 --num_feats 40
+### x16 DSR
+> python test.py --scale 16 --num_feats 40
+## Test on real-world RGB-D-D
+> python test.py --scale 4 --num_feats 24
 
 
 ## Experiments
