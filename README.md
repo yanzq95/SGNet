@@ -2,7 +2,7 @@
 <p align="center"><a href="https://scholar.google.com/citations?user=VogTuQkAAAAJ&hl=zh-CN">Zhengxue Wang</a>, <a href="https://scholar.google.com/citations?user=hnrkzIEAAAAJ&hl=zh-CN&oi=sra">Zhiqiang Yan✉</a>, <a href="https://scholar.google.com/citations?user=6CIDtZQAAAAJ&hl=zh-CN">Jian Yang✉</p>
 <p align="center">PCA Lab, Nanjing University of Science and Technology, China</p>
 
-### This repository is an official PyTorch implementation of our SGNet (AAAI 2024).
+### This repository is an official PyTorch implementation of our <a href="https://arxiv.org/pdf/2312.05799.pdf">SGNet</a> (AAAI 2024).
 
 <a href="https://arxiv.org/pdf/2312.05799.pdf">Paper</a>
 
