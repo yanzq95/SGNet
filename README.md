@@ -22,6 +22,8 @@ tqdm==4.65.0
 All pretrained models can be found <a href="https://drive.google.com/drive/folders/17mCRfsNj0f_BNY3viHcR6M1camCVoAb8?usp=sharing">here</a>.
 Please note that some variable names in the initial pretrained .pth files are not consistent with those in the latest code. Therefore, we have reuploaded the new .pth files for completeness, named xxx_R.pth.
 
+## Datasets
+<a href="https://drive.google.com/drive/folders/17mCRfsNj0f_BNY3viHcR6M1camCVoAb8?usp=sharing">NYU-v2</a>
 
 ## Train on synthetic NYU-v2
 ### x4 DSR
