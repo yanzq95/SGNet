@@ -4,8 +4,6 @@
 
 ### This repository is an official PyTorch implementation of our <a href="https://arxiv.org/pdf/2312.05799.pdf">SGNet</a> (AAAI 2024).
 
-<a href="https://arxiv.org/pdf/2312.05799.pdf">Paper</a>
-
 ## Dependencies
 ```
 Python==3.11.5
