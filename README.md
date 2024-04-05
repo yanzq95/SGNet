@@ -81,10 +81,13 @@ We thank these repos sharing their codes: [DKN](https://github.com/cvlab-yonsei/
 
 If our method proves to be of any assistance, please consider citing:
 ```
-@article{wang2023sgnet,
-  title={SGNet: Structure Guided Network via Gradient-Frequency Awareness for Depth Map Super-Resolution},
-  author={Wang, Zhengxu and Yan, Zhiqiang and Yang, Jian},
-  journal={arXiv preprint arXiv:2312.05799},
-  year={2023}
+@inproceedings{wang2024sgnet,
+  title={Sgnet: Structure guided network via gradient-frequency awareness for depth map super-resolution},
+  author={Wang, Zhengxue and Yan, Zhiqiang and Yang, Jian},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={6},
+  pages={5823--5831},
+  year={2024}
 }
 ```
